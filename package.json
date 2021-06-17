@@ -1,0 +1,28 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle compile && mocha --exit --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "@openzeppelin/test-environment": "^0.1.9",
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "@openzeppelin/truffle-upgrades": "^1.7.1",
+    "@truffle/hdwallet-provider": "^1.2.2",
+    "chai": "^4.3.4",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^8.1.2",
+    "truffle": "^5.1.65"
+  },
+  "dependencies": {
+    "css-what": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "y18n": "^5.0.5"
+  }
+}
